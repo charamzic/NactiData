@@ -12,8 +12,7 @@ n1 * n2 * n3
 
 ### Run from CLI
 
-> dotnet new console  
-dotnet build --output ./build_output  
+> dotnet build --output ./build_output  
 dotnet ./build_output/my_app.dll n1 n2 n3  
 
 More on that: https://learn.microsoft.com/en-us/dotnet/core/tools/?tabs=netcore2x
